@@ -34,3 +34,26 @@ body{
     color: black;
     font-weight: bold;
 }
+
+.home{
+    height: 50vh;
+    background: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.53)),
+    url(./img/conner-baker-wv4Pu-Jjdbw-unsplash.jpg) no-repeat center center/cover;
+}
+.home .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: white;
+}
+.home .container h1{
+    font-weight: 800;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.home .container p{
+    color: rgba(255, 255, 255, 0.64);
+}
