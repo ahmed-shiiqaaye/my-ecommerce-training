@@ -75,6 +75,12 @@ img{
     height: 100%;
     object-fit: cover;
 }
+.title{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 30px 0;
+}
 .shopping .container{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
@@ -262,4 +268,78 @@ img{
 .products .prev{
     background: linear-gradient(to right,rgba(255, 255, 255, 1),rgba(255, 255, 255, 0.3));
     left: 0;
+}
+
+.footer{
+    background: rgba(5,5,0,.93);
+    padding: 10px 0;
+}
+.footer .container-footer{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.footer .container-footer .grid{
+    padding: 20px 0;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    color: white;
+}
+.footer .container-footer .grid .card h2{
+    margin-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+}
+.footer .container-footer .grid .card ul li{
+    color: rgba(255, 255, 255, 0.45);
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: .7px;
+    margin-bottom: 4px;
+}
+.footer .container-footer .grid .card ul li{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.footer .container-footer .grid .card ul li .icon{
+  color: rgb(81, 255, 0);
+  border: 1px solid rgb(81, 255, 0);
+  height: 20px;
+  width: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  padding: 2px;
+  margin-right: 5px;
+}
+.footer .container-footer .grid .card ul li .name{
+    text-transform: lowercase;
+}
+.footer .container-footer .grid .card:last-child{
+    border: 1px solid rgb(81, 255, 0);
+   padding: 10px;
+}
+.footer .container-footer .grid .card:last-child input{
+    padding: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+    background: transparent;
+    border: 1px solid rgba(250,250,250,.3);
+    box-sizing: border-box;
+    outline: none;
+    color: rgba(255, 255, 255, 0.773);
+}
+.footer .container-footer .grid .card:last-child .btn{
+    display: block;
+    width: 100%;
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: 16px;
+    outline: none;
+    border: 0;
+    background: rgba(255, 255, 255, 0.83);
+    color:black;
 }
